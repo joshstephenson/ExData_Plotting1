@@ -15,7 +15,7 @@ names(hpc) <- c("Date",
                 )
 
 # Open a PNG device where we will draw the plot
-png(file = "plot1.png")
+png(file = "plot1.png", height = 480, width = 480)
 
 # Reference images included in repository have transparent bg
 par(bg = "transparent")

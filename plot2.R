@@ -22,7 +22,7 @@ hpc <- hpc %>%
         select(DateTime, GlobalActivePower)
 
 # Open a PNG device where we will draw the plot
-png(file = "plot2.png")
+png(file = "plot2.png", height = 480, width = 480)
 
 # Reference images included in repository have transparent bg
 par(bg = "transparent")

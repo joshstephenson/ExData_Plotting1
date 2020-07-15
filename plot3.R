@@ -20,7 +20,7 @@ hpc <- hpc %>%
         select(DateTime, SubMetering1, SubMetering2, SubMetering3)
 
 # Open a PNG device where we will draw the plot
-png(file = "plot3.png")
+png(file = "plot3.png", height = 480, width = 480)
 
 # Reference images included in repository have transparent bg
 par(bg = "transparent")

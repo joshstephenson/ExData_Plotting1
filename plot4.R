@@ -20,7 +20,7 @@ hpc <- hpc %>%
         select(DateTime, GlobalActivePower, Voltage, GlobalReactivePower, SubMetering1, SubMetering2, SubMetering3)
 
 # Open a PNG device where we will draw the plot
-png(file = "plot4.png")
+png(file = "plot4.png", height = 480, width = 480)
 
 ## Setup some plot-wide settings including margins matching the examples
 par(bg = "white", mfrow = c(2,2), mar = c(5,4,3,1), oma = c(0,1,0,2)) # Reference images included in repository have transparent bg
